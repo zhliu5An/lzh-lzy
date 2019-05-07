@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html class="fuzhitkl">
+	<script src="js/clipboard.js"></script>
+    <script>
+    var clipboard = new ClipboardJS('.fuzhitkl');
+
+    clipboard.on('success', function(e) {
+        console.log(e);
+    });
+
+    clipboard.on('error', function(e) {
+        console.log(e);
+    });
+    </script>
+    <head>
+		<meta charset="utf-8">
+        <title>lzh&amp;lzy</title>
+	    <meta name="description" content="我爱你">
+<!--        <meta name="viewport" content="width=device-width, initial-scale=1">-->
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="css/base.css" rel="stylesheet" type="text/css" media="all"/>
+<!--        <link href="css/venobox.css" rel="stylesheet" type="text/css"  media="all" />-->
+<!--        <link href="css/fonts.css" rel="stylesheet" type="text/css"  media="all" />-->
+        <link href="css/type.css" rel="stylesheet">
+	    <link href="css/main.css" rel="stylesheet" type="text/css" media="all"/>
+	    <!--videobackground-->
+	    <link rel="stylesheet" href="dist/jquery.vidbacking.css" type="text/css">
+		<!--heart bottom-->
+		<link rel="stylesheet" href="css/heart.css" type="text/css">
+		<!--animate-->
+		<link rel="stylesheet" href="css/animate.min.css" type="text/css">
+		<!--album-->
+		<link rel="stylesheet" type="text/css" href="css/album.css" />
+     </head>
+     <body>
+	    <video poster="theOcean.png" autoplay loop muted class="vidbacking">
+          <source src="TheOcean.mp4" type="video/mp4">
+	    </video> 
+        <div class="loader">
+			<div class="loader-inner">
+				<svg width="120" height="220" viewbox="0 0 100 100" class="loading-spinner" version="1.1" xmlns="http://www.w3.org/2000/svg">
+					<circle class="spinner" cx="50" cy="50" r="21" fill="#ffffff" stroke-width="2"/>
+                </svg>
+            </div>
+        </div>
+      <div class="wrapper">
+         <section class="hero overlay">
+<!--
+            <div class="background-img">
+               <img src="images/main.JPG" alt="">
+            </div>
+-->
+            <header class="header default">
+               <div class=" left-part">
+                  <a class="logo scroll" href="#hero">
+                     <h2>LOVE</h2>
+                  </a>
+               </div>
+               <div class="right-part">
+                  <nav class="main-nav">
+                     <div class="toggle-mobile-but">
+                        <a href="#" class="mobile-but" >
+                           <div class="lines"></div>
+                        </a>
+                     </div>
+                     <ul>
+                        <li><a class="scroll" href="#home">Home</a></li>
+                        <li><a class="scroll" href="#story">Story</a></li>
+                        <li><a class="scroll" href="#album">Album</a></li>
+                     </ul>
+                  </nav>
+               </div>
+            </header>
+            <div class="inner-hero">
+               <div class="hero-content">
+                  <div class="row">
+                     <div class="col-sm-12 text-center">   
+						 <canvas id="iloveu"></canvas>
+						 <h1 hidden id="headline">I LOVE YOU</h1>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section id="story" class="story pt-120 pb-120">
+            <svg class="section-dashed xScroll" data-animation="fadeIn" version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px" height="457px" xml:space="preserve">
+               <path class="dashed-line" stroke-width="1"  d="M30 0 v600 400"/>
+            </svg>
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-12 text-center mb-100">
+                     <h1 class="large title xScroll" data-animation="fadeInUp">Our love story</h1>
+                     <p class="xScroll" data-animation="fadeInUp">The Story of our love</p>
+                  </div>
+               </div>
+               <div class="row xScroll" data-animation="heartBeat">
+                   <div class="col-sm-12 text-center">   
+					   <div class="block-date-hero">
+						   <div class="circle-dashed bg-n">
+							   <div class="heart">
+								   <div class="right-heart"></div>
+								   <div class="left-heart"></div>
+							   </div>
+                           </div>
+                           <ul>
+                              <li>刘卓宏</li>
+                              <li>廖梓悦</li>
+                           </ul>
+					   </div>
+					   <br><br>
+					</div>
+			   </div>
+			   <div class="row xScroll" data-animation="bounceInLeft">
+                  <div class="col-md-4 col-md-offset-4 col-sm-8 col-sm-offset-2 text-center mb-30">
+                     <h2>生命诚可贵<br>爱情价更高</h2>
+                     <h2>若为理想故<br>两者不可抛</h2>
+                  </div>
+               </div>
+               <div class="row story-row mt-100 mb-100 xScroll" data-animation="heartBeat">
+                  <div class="circle-dashed timeline bg">
+                     <div class="heart">
+						 <div class="right-heart"></div>
+						 <div class="left-heart"></div>
+					  </div>
+                  </div>
+                  <div class="col-sm-5 ">
+                     <div class="couple-story text-right">
+                        <p>我爱你</p>
+                     </div>
+                  </div>
+                  <div class="col-sm-5 col-sm-offset-2">
+                     <div class="couple-story">
+                        <p>我爱你</p>
+                     </div>
+                  </div>
+               </div>
+			   <div class="row story-row mt-100 mb-100 xScroll" data-animation="heartBeat">
+                  <div class="circle-dashed timeline bg green">
+                     <div class="heart">
+						 <div class="right-heart"></div>
+						 <div class="left-heart"></div>
+					  </div>
+                  </div>
+                  <div class="col-sm-5 ">
+                     <div class="couple-story text-right">
+                        <p>我爱你</p>
+                     </div>
+                  </div>
+                  <div class="col-sm-5 col-sm-offset-2">
+                     <div class="couple-story">
+                        <p>我爱你</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="row story-row mt-100 mb-80 xScroll" data-animation="heartBeat">
+                  <div class="circle-dashed timeline bg">
+					  <div class="heart">
+						  <div class="right-heart"></div>
+						  <div class="left-heart"></div>
+					  </div>
+                  </div>
+                  <div class="col-sm-5 ">
+                     <div class="couple-story text-right">
+                        <p>我爱你</p>
+                     </div>
+                  </div>
+                  <div class="col-sm-5 col-sm-offset-2">
+                     <div class="couple-story">
+                        <p>我爱你</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-md-12  text-center mt-100">
+                     <a href="#" class="but">
+                        <span>Home</span>
+                        <svg class="but-svg xScroll" data-animation="fadeIn" width="175" height="50" viewBox="0 0 415 120" xmlns="http://www.w3.org/2000/svg">
+                           <rect class="but-rect" x="10" y="10" width="400" height="100" rx="6" ry="6"/>
+                        </svg>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="date pt-150 pb-150 overlay">
+<!--
+            <div class="background-img">
+               <img src="images/4.jpg" alt="">
+            </div>
+-->
+            <div class="container">
+               <div class="row">
+                     <h2 class="indent">Wedding date</h2>
+                  <div class="col-sm-12 text-center">
+                     <div class="block-content front-p"> 
+                        <h2 class="typo xScroll" data-animation="bounceInLeft">Since we met</h2>
+						<h2 class="xScroll" data-animation="bounceInRight">
+                        <span id="elapseClock" class="text-white" style="font-size: 45px;font-weight: 300;">D <span class="digit">20</span> H <span class="digit">14</span> M <span class="digit">00</span> S</span>
+					    </h2>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section id="album" class="album pt-120 pb-120">
+            <div>
+               <div class="row">
+                  <div class="col-sm-12 text-center mb-100">
+                     <h1 class="large title xScroll" data-animation="fadeInUp">ALBUM</h1>
+                     <p class="xScroll" data-animation="fadeInUp">Record our life</p>
+                  </div>
+               </div>
+               <div>
+<!-- album -->
+			   <div class="grid xScroll" data-animation="fadeInUp">
+				   <div class="grid__item" data-size="1280x853">
+					   <a href="album/1.jpg" class="img-wrap">
+						   <img src="album/1.jpg" alt="img1" /><div hidden class="description description--grid">Assemblagee</div>
+					   </a>
+				   </div>
+			<div class="grid__item" data-size="958x1280"> <a href="album/2.jpg" class="img-wrap"><img src="album/2.jpg" alt="img2" />
+				<div hidden class="description description--grid">Demesnee</div>
+				</a> </div>
+			<div class="grid__item" data-size="1280x853"> <a href="album/3.jpg" class="img-wrap"><img src="album/3.jpg" alt="img3" />
+				<div hidden class="description description--grid">Vestigial</div>
+				</a> </div>
+			<div class="grid__item" data-size="865x1280"> <a href="album/4.jpg" class="img-wrap"><img src="album/4.jpg" alt="img4" />
+				<div hidden class="description description--grid">Zephyr</div>
+				</a> </div>
+			<div class="grid__item" data-size="1280x1280"> <a href="album/5.jpg" class="img-wrap"><img src="album/5.jpg" alt="img5" />
+				<div hidden class="description description--grid">Desideratum</div>
+				</a> </div>
+			<div class="grid__item" data-size="1280x850"> <a href="album/6.jpg" class="img-wrap"><img src="album/6.jpg" alt="img6" />
+				<div hidden class="description description--grid">Quixotic</div>
+				</a> </div>
+			<div class="grid__item" data-size="1280x850"> <a href="album/7.jpg" class="img-wrap"><img src="album/7.jpg" alt="img7" />
+				<div hidden class="description description--grid">Quixotic</div>
+				</a> </div>
+			<div class="grid__item" data-size="1280x850"> <a href="album/8.jpg" class="img-wrap"><img src="album/8.jpg" alt="img8" />
+				<div hidden class="description description--grid">Quixotic</div>
+				</a> </div>
+			<div class="grid__item" data-size="1280x850"> <a href="album/1.jpg" class="img-wrap"><img src="album/1.jpg" alt="img10" />
+				<div hidden class="description description--grid">Quixotic</div>
+				</a> </div>
+			<div class="grid__item" data-size="1280x850"> <a href="album/2.jpg" class="img-wrap"><img src="album/2.jpg" alt="img11" />
+				<div hidden class="description description--grid">Quixotic</div>
+				</a> </div>
+			<div class="grid__item" data-size="1280x850"> <a href="album/3.jpg" class="img-wrap"><img src="album/3.jpg" alt="img12" />
+				<div hidden class="description description--grid">Quixotic</div>
+				</a> </div>
+			<div class="grid__item" data-size="1280x850"> <a href="album/4.jpg" class="img-wrap"><img src="album/4.jpg" alt="img13" />
+				<div hidden class="description description--grid">Quixotic</div>
+				</a> </div>
+			<div class="grid__item" data-size="1280x850"> <a href="album/5.jpg" class="img-wrap"><img src="album/5.jpg" alt="img14" />
+				<div hidden class="description description--grid">Quixotic</div>
+				</a> </div>
+			<div class="grid__item" data-size="1280x850"> <a href="album/6.jpg" class="img-wrap"><img src="album/6.jpg" alt="img15" />
+				<div hidden class="description description--grid">Quixotic</div>
+				</a> </div>
+			<div class="grid__item" data-size="1280x850"> <a href="album/7.jpg" class="img-wrap"><img src="album/7.jpg" alt="img16" />
+				<div hidden class="description description--grid">Quixotic</div>
+				</a> </div>
+			<div class="grid__item" data-size="1280x850"> <a href="album/8.jpg" class="img-wrap"><img src="album/8.jpg" alt="img17" />
+				<div hidden class="description description--grid">Quixotic</div>
+				</a> </div>
+		</div>
+<!-- album -->
+
+		<!-- /grid -->
+		<div class="preview">
+			<button class="action action--close"><i class="fa fa-times">x</i><span class="text-hidden">Close</span></button>
+			<div class="description description--preview"></div>
+		</div>
+		<!-- /preview -->
+	</div>
+            </div>
+         </section>
+         <section class="just-married pt-200 pb-200 overlay">
+            <div class="container">
+                     <div class="block-content front-p">
+						<svg id="theSvg" viewBox="-120 -30 240 180" enable-background="new 0 0 174 148" xml:space="preserve">
+							<defs>
+								<filter id="f" filterUnits="userSpaceOnUse" id="shadow" x="-120" y="-30" width="120%" height="120%">
+								  <feGaussianBlur in="SourceAlpha" stdDeviation="5" result="blur"></feGaussianBlur>
+								  <feOffset in="blur" dx="3" dy="5" result="shadow"></feOffset>
+								  <feFlood flood-color="rgba(3,0,0,.9)" result="color" />
+								  <feComposite in ="color" in2="shadow" operator="in" />
+								  <feComposite in="SourceGraphic"/>
+								</filter>
+							<path id = "shape"
+							d="M0, 21.054 
+							   C0, 21.054 24.618, -15.165 60.750, 8.554 
+							   C93.249, 29.888 57.749, 96.888 0, 117.388
+							   C-57.749, 96.888  -93.249, 29.888 -60.750, 8.554
+							   C-24.618, -15.165  -0, 21.054 -0, 21.054z    
+							"/>
+							  <path id="partialPath" />  
+							</defs> 
+							 <text dy="-2" filter="url(#f)">
+									<textPath xlink:href="#partialPath"  startOffset="12">What's in a name? That which we call a rose By any other word would smell as sweet...</textPath> 
+							 </text>
+							 <use id="useThePath" xlink:href="#partialPath" stroke="white" stroke-width=".5" stroke-opacity=".5" fill="none" style="display:none;" />
+						</svg>
+                     </div>
+            </div>
+			<div class="iCameToMeetU">
+			<h2 class="heavy uppercase mt-10 light">我来到这个世界 就是为了遇见你</h2>
+			</div>
+         </section>
+         <footer class="footer pt-70 pb-70">
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-12 text-center">
+                     <p class="uppercase heavy normal">&copy; 2019 love. 廖梓悦 & 刘卓宏</p>
+                  </div>
+               </div>
+            </div>
+         </footer>
+      </div>
+      <script src="js/jquery.min.js" type="text/javascript"></script>
+      <script src="js/jquery.countdown.min.js" type="text/javascript"></script>
+<!--      <script src="js/venobox.min.js" type="text/javascript"></script>-->
+      <script src="js/smooth-scroll.js" type="text/javascript"></script>
+      <script src="js/script.js" type="text/javascript"></script>
+	  <script src="js/heart.js" type="text/javascript"></script>
+	  <!--videobackground-->
+	  <script src="dist/jquery.vidbacking.js" type="text/javascript"></script>
+      <script type="text/javascript">
+          $(function(){
+              $('body').vidbacking({
+                  'masked': true
+              });
+          });
+      </script>
+	  <!--i love you-->
+      <script src="js/ioveu.js" type="text/javascript"></script>
+	  <script type="text/javascript">
+		  var together = new Date();
+		  var strs = "2019-03-08 22:00:00";
+		  var nowTime=new Date();
+          var together = new Date(strs.replace(/-/g,"/"));	
+		  timeElapse(together);
+		  setInterval(function () {timeElapse(together);}, 500);
+	   	  function timeElapse(c){
+		  var e=Date();
+		  var f=(Date.parse(e)-Date.parse(c))/1000;
+		  var g=Math.floor(f/(3600*24));f=f%(3600*24);
+		  var b=Math.floor(f/3600);
+		  if(b<10){b="0"+b}f=f%3600;var d=Math.floor(f/60);
+		  if(d<10){d="0"+d}f=f%60;
+		  if(f<10){f="0"+f}
+		  var a='<span class="digit">'+g+'</span> days <span class="digit">'+b+'</span> hours <span class="digit">'+d+'</span> minutes <span class="digit">'+f+"</span> seconds";$("#elapseClock").html(a)};
+	   </script>
+	  <!--audio-->
+	  <audio id="main_audio" autoplay="autoplay" preload="auto" control="control" loop>
+		  <source src="theOcean.mp3" type="audio/mp3" />
+	  </audio>
+	  <!--album-->
+	  <script src="js/imagesloaded.pkgd.min.js"></script>
+	  <script src="js/modernizr-custom.js"> </script>
+	  <script src="js/masonry.pkgd.min.js"></script>
+	  <script src="js/classie.js"></script>
+	  <script src="js/main.js"></script>
+	  <script>
+		(function() {
+			// create SVG circle overlay and append it to the preview element
+			function createCircleOverlay(previewEl) {
+				var dummy = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+				dummy.setAttributeNS(null, 'version', '1.1');
+				dummy.setAttributeNS(null, 'width', '100%');
+				dummy.setAttributeNS(null, 'height', '100%');
+				dummy.setAttributeNS(null, 'class', 'aoverlay');
+				var g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+				var circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+				circle.setAttributeNS(null, 'cx', 0);
+				circle.setAttributeNS(null, 'cy', 0);
+				circle.setAttributeNS(null, 'r', Math.sqrt(Math.pow(previewEl.offsetWidth,2) + Math.pow(previewEl.offsetHeight,2)));
+				dummy.appendChild(g);
+				g.appendChild(circle);
+				previewEl.appendChild(dummy);
+			}
+			
+			new GridFx(document.querySelector('.grid'), {
+				onInit : function(instance) {
+					createCircleOverlay(instance.previewEl);
+				},
+				onResize : function(instance) {
+					instance.previewEl.querySelector('svg circle').setAttributeNS(null, 'r', Math.sqrt(Math.pow(instance.previewEl.offsetWidth,2) + Math.pow(instance.previewEl.offsetHeight,2)));
+				},
+				onOpenItem : function(instance, item) {
+					// item's image
+					var gridImg = item.querySelector('img'),
+						gridImgOffset = gridImg.getBoundingClientRect(),
+						win = {width: document.documentElement.clientWidth, height: window.innerHeight},
+						SVGCircleGroupEl = instance.previewEl.querySelector('svg > g'),
+						SVGCircleEl = SVGCircleGroupEl.querySelector('circle');
+						
+					SVGCircleEl.setAttributeNS(null, 'r', Math.sqrt(Math.pow(instance.previewEl.offsetWidth,2) + Math.pow(instance.previewEl.offsetHeight,2)));
+					// set the transform for the SVG g node. This will animate the circle overlay. The origin of the circle depends on the position of the clicked item.
+					if( gridImgOffset.left + gridImg.offsetWidth/2 < win.width/2 ) {
+						SVGCircleGroupEl.setAttributeNS(null, 'transform', 'translate(' + win.width + ', ' + (gridImgOffset.top + gridImg.offsetHeight/2 < win.height/2 ? win.height : 0) + ')');
+					}
+					else {
+						SVGCircleGroupEl.setAttributeNS(null, 'transform', 'translate(0, ' + (gridImgOffset.top + gridImg.offsetHeight/2 < win.height/2 ? win.height : 0) + ')');
+					}
+				}
+			});
+		})();
+	  </script>
+	      <script>
+    function autoPlayAudio1() {
+		document.getElementById('main_audio').play();
+    }
+    autoPlayAudio1(); // 推荐使用方法1
+    </script>
+
+	  <!--animate-->
+	  <script src="js/isScroll.js" type="text/javascript"></script>
+	  <script> $(".xScroll").xScroll(); </script>
+   </body>
+</html>
+
