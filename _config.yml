@@ -1,3 +1,5 @@
 url:https://zhliu5an.github.io/lzh-lzy
 root:/lzh-lzy/
 permalink_default:
+
+theme: jekyll-theme-slate
